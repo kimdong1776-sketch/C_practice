@@ -1,0 +1,31 @@
+ANSI C and ISO C
+During the late 1970s and 1980s, 
+versions of C were implemented for a wide variety of mainframe computers, 
+minicomputers, and microcomputers, including the IBM PC, 
+as its popularity began to increase significantly.
+In 1983, the American National Standards Institute (ANSI) formed a committee, 
+X3J11, to establish a standard specification of C. 
+X3J11 based the C standard on the Unix implementation; 
+however, the non-portable portion of the Unix C library was handed off to the IEEE 
+working group 1003 
+to become the basis for the 1988 POSIX standard. 
+In 1989, the C standard was ratified as ANSI X3.159-1989 "Programming Language C". 
+This version of the language is often referred to as ANSI C, Standard C, or 
+sometimes C89.
+In 1990, the ANSI C standard (with formatting changes) was adopted by the 
+International Organization 
+for Standardization (ISO) as ISO/IEC 9899:1990, which is sometimes called C90. 
+Therefore, the terms "C89" and "C90" refer to the same programming language.
+
+GCC was first released March 22, 1987, available by FTP from MIT.[18] Stallman was 
+listed as the author but cited others for their contributions, including Tower for 
+"parts of the parser, RTL generator, RTL definitions, and of the Vax machine 
+description", Jack Davidson and Christopher W. Fraser for the idea of using RTL as 
+an intermediate language, and Paul Rubin for writing most of the preprocessor.[19] 
+Described as the "first free software hit" by Peter H. Salus, the GNU compiler 
+arrived just at the time when Sun Microsystems was unbundling its development tools 
+from its operating system, selling them separately at a higher combined price than 
+the previous bundle, which led many of Sun's users to buy or download GCC instead of 
+the vendor's tools.[20] While Stallman considered GNU Emacs as his main project, by 
+1990 GCC supported thirteen computer architectures, was outperforming several vendor 
+compilers, and was used commercially by several companies.[21]

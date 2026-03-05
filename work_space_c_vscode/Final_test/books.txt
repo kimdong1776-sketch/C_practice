@@ -1,0 +1,8 @@
+C Programming,Dennis Ritchie,18000
+Modern C Programming,K.N.King,35000
+Java How to Program,Paul Deitel,48000
+C++ How to Program,Dan Quirk,45000
+Understanding Linux Programming,Bruce Molay,29000
+Hands on Machine Learning,John Anderson,21000
+Learning Python,Guido Van Rossum,27000
+Effective Java,Joshua Bloch,32000

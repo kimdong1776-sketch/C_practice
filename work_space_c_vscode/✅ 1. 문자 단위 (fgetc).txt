@@ -1,0 +1,44 @@
+✅ 1. 문자 단위 (fgetc)
+int ch;
+
+while ((ch = fgetc(fp)) != EOF) {
+    putchar(ch);
+}
+
+✅ 2. 문자열 단위 (fgets)
+char buf[256];
+
+while (fgets(buf, sizeof(buf), fp) != NULL) {
+    printf("%s", buf);
+}
+
+✅ 3. 형식 지정 입력 (fscanf)
+int x;
+
+while (fscanf(fp, "%d", &x) == 1) {
+    printf("%d\n", x);
+}
+
+✅ 4. 바이너리 파일 (fread)
+char buf[512];
+size_t n;
+
+while ((n = fread(buf, 1, sizeof(buf), fp)) > 0) {
+    fwrite(buf, 1, n, stdout);
+}
+
+❌ 쓰면 안 되는 패턴 (비교용)
+while (!feof(fp)) {
+    fscanf(fp, "%d", &x);   // ❌ 마지막 값 한 번 더 처리됨
+}
+✅ 사용자 입력에 대해선 이렇게 쓰기
+fgets(name_score,	80,	stdin); 
+while (!feof(stdin)){ //	Ctrl +	Z	표준입력의	종료	확인	
+    fprintf(f,	"%d	",	++cnt); //맨	앞에	번호를	삽입
+    fputs(name_score,	f); //	입력	받은	이름과	성적	2개	저장
+
+    fgets(name_score,	80,	stdin); 
+}
+
+⭐ 핵심 한 줄 요약
+EOF 판단 = feof ❌  →  입력 함수 반환값 ⭕

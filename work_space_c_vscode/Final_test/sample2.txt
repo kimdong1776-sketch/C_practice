@@ -1,0 +1,23 @@
+The GNU Compiler Collection (GCC) (formerly GNU C Compiler) is a collection of 
+compilers from the GNU Project that support various programming languages, hardware 
+architectures, and operating systems. The Free Software Foundation (FSF) distributes 
+GCC as free software under the GNU General Public License (GNU GPL). GCC is a key 
+component of the GNU toolchain which is used for most projects related to GNU and 
+the Linux kernel. With roughly 15 million lines of code in 2019, GCC is one of the 
+largest free programs in existence.[4] It has played an important role in the growth 
+of free software, as both a tool and an example.
+
+When it was first released in 1987 by Richard Stallman, GCC 1.0 was named the GNU C 
+Compiler since it only handled the C programming language.[1] It was extended to 
+compile C++ in December of that year. Front ends were later developed for 
+Objective-C++, Fortran, Go, D, Modula-2, Rust and COBOL among others.[6] 
+The OpenMP and OpenACC specifications are also supported in the C and C++ 
+compilers.[7][8]
+
+As well as being the official compiler of the GNU operating system, GCC has been 
+adopted as the standard compiler by many other modern Unix-like computer operating 
+systems, including most Linux distributions. Most BSD family operating systems also 
+switched to GCC shortly after its release, although since then, FreeBSD and Apple 
+macOS have moved to the Clang compiler,[9] largely due to licensing 
+reasons.[10][11][12] GCC can also compile code for Windows, Android, iOS, Solaris, 
+HP-UX, AIX, and MS-DOS compatible operating systems.[13]

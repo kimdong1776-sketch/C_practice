@@ -1,0 +1,9 @@
+CProgramming,DennisRitchie,18000,,0
+ModernCProgramming,K.N.King,35000,,0
+JavaHowtoProgram,PaulDeitel,48000,,0
+C++HowtoProgram,DanQuirk,45000,,0
+UnderstandingLinuxProgramming,BruceMolay,29000,,0
+HandsonMachineLearning,JohnAnderson,21000,,0
+LearningPython,GuidoVanRossum,27000,,0
+EffectiveJava,JoshuaBloch,32000,,0
+dfd,dfd,0

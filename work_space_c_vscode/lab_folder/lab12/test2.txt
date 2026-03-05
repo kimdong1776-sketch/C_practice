@@ -1,0 +1,12 @@
+ANSI C and ISO C
+During the late 1970s and 1980s, 
+versions of C were implemented for a wide variety of mainframe computers, 
+minicomputers, and microcomputers, including the IBM PC, as its popularity began to increase significantly.
+In 1983, the American National Standards Institute (ANSI) formed a committee, 
+X3J11, to establish a standard specification of C. 
+X3J11 based the C standard on the Unix implementation; 
+however, the non-portable portion of the Unix C library was handed off to the IEEE working group 1003 
+to become the basis for the 1988 POSIX standard. 
+In 1989, the C standard was ratified as ANSI X3.159-1989 "Programming Language C". 
+This version of the language is often referred to as ANSI C, Standard C, or sometimes C89.
+In 2000, the ANSI C standard (with formatting changes) was adopted by the International Organization 
