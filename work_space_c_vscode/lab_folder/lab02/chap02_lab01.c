@@ -9,7 +9,7 @@
 int main(){
     printf("---------------------\n");
     printf("프로그램git 개발 과정\n");
-    printf("---------------------\n");
+    printf("-----fdfdfdfdfdfdfdfdfdfdfdfd----------------\n");
     printf("1. 문제 분석(설계)\n");
     printf("2. 코드 작성\n");
     printf("3. 컴파일\n");
