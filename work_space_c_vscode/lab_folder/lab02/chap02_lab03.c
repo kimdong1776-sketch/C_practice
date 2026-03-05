@@ -7,7 +7,7 @@
 #include<stdio.h>
 
 int main(){
-    printf("==============================================\n");
+    printf("==============dffdfdfdfdfdfd================================\n");
     printf("KNU Computer Science & Engineering\n\n");
     printf("ID: 2025003170\n");
     printf("Name: 김동후\n");
