@@ -18,6 +18,9 @@
     <ClCompile Include="ds01_김동후_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="temp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt" />
