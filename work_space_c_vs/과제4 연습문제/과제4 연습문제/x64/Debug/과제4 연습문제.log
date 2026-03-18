@@ -1,0 +1,3 @@
+﻿  practice.c
+C:\study_coding\work_space_c\work_space_c_vs\과제4 연습문제\과제4 연습문제\practice.c(17,1): warning C4715: 'isprime': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  과제4 연습문제.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제4 연습문제\x64\Debug\과제4 연습문제.exe
