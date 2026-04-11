@@ -1,0 +1,4 @@
+﻿  prac1.c
+C:\study_coding\work_space_c\work_space_c_vs\과제11_연습\과제11_연습\prac1.c(51,10): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'node *'입니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제11_연습\과제11_연습\prac1.c(51,10): warning C4313: 'printf': 서식 문자열의 '%u'이(가) node *' 형식의 인수 2과(와) 충돌합니다.
+  과제11_연습.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제11_연습\x64\Debug\과제11_연습.exe

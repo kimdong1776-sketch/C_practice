@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="과제11_연습문제2/과제11_연습문제2.vcxproj" />
+</Solution>

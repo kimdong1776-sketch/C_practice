@@ -1,0 +1,21 @@
+﻿  ds08_김동후.c
+C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(30,15): warning C4473: 'fscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(30,15):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(30,15):
+      누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(30,15):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(50,10): warning C4013: 'stack_empty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(65,12): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(149,13): warning C4473: 'fscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(149,13):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(149,13):
+      누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(149,13):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+C:\study_coding\work_space_c\work_space_c_vs\과제8\과제8\ds08_김동후.c(141,1): warning C4716: 'InToPost': 값을 반환해야 합니다.
+  과제8.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제8\x64\Debug\과제8.exe
