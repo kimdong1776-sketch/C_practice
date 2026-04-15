@@ -1,2 +1,3 @@
 ﻿  ds06_김동후.c
-  과제6.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제6\x64\Debug\과제6.exe
+C:\study_coding\work_space_c\work_space_c_vs\과제6\과제6\ds06_김동후.c(88,36): error C2102: '&'에 l-value가 있어야 합니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제6\과제6\ds06_김동후.c(88,17): warning C4477: 'fscanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int ***'입니다.

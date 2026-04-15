@@ -17,14 +17,14 @@ term* get_transpose(term* A, term* B) {
 	B[0].value = A[0].value;
 
 	if (A[0].value > 0) {
-		for (i = 0; i < A[0].col; i++) {
+		for (i = 0; i < A[0].col; i++) {//init
 			rowTerms[i] = 0;
 		}
-		for (i = 1; i < A[0].value+1; i++) {
+		for (i = 1; i < A[0].value+1; i++) {//i열이 몇번 나오는지 계산
 			rowTerms[A[i].col]++;
 		}
-		startingPos[0] = 1;
-		for (i = 1; i < A[0].col;i++) {
+		startingPos[0] = 1; //0번열은 1번 인덱스부터 시작 (init)
+		for (i = 1; i < A[0].col;i++) {// i열 시작 인덱스 계산
 			startingPos[i] = startingPos[i - 1] + rowTerms[i - 1];
 		}
 		for (i = 1; i < A[0].value+1; i++) {
@@ -32,7 +32,7 @@ term* get_transpose(term* A, term* B) {
 			B[j].row = A[i].col;
 			B[j].col = A[i].row;
 			B[j].value = A[i].value;
-			printf("%d ", i);
+			
 		}
 
 	}
@@ -40,7 +40,6 @@ term* get_transpose(term* A, term* B) {
 }
 void print_tofile_transpose(FILE* out,term* A) {
 	for (int i = 0; i < A[0].value+1; i++) {
-		printf("a");
 		fprintf(out,"%d ", A[i].row);
 		fprintf(out, "%d ", A[i].col);
 		fprintf(out, "%d \n", A[i].value);
@@ -86,7 +85,7 @@ void print_sparse_matrix(term* A) {
 void put_matrix(FILE* in,int **matrix, int rows, int cols) {
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < cols; j++) {
-			fscanf_s(in, "%d ", &matrix[i][j]);
+			fscanf_s(in, "%d ", &((matrix+i)+j));
 		
 		}
 	}

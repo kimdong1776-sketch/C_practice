@@ -100,7 +100,7 @@ int main() {
 	printf("iterative binary search:\n");
 	start = clock();
 	for (int i = 0; i < freq; i++) {
-		int res = iterative_search(L, i, 0, L_size);
+		int res = iterative_search(L, i, 0, L_size-1);
 		if (i < 5) printf("search %d result: %d\n", i, res);
 	}
 	end = clock();
@@ -110,7 +110,7 @@ int main() {
 	printf("recursive binary search:\n");
 	start = clock();
 	for (int i = 0; i < freq; i++) {
-		int res = recursive_search(L, i, 0, L_size);
+		int res = recursive_search(L, i, 0, L_size-1);
 		if (i < 5) printf("search %d result: %d\n", i, res);
 	}
 	end = clock();
