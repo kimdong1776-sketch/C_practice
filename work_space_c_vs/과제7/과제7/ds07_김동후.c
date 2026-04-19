@@ -43,7 +43,7 @@ void push(element temp) {
 	stack[++top] = temp;
 }
 
-int find_path(int mark[7][7], int maze[7][7], int start_row, int start_col, int finish_row, int finish_col) {
+int find_path(int mark[7][7], int (*maze)[7], int start_row, int start_col, int finish_row, int finish_col) {
 	int row, col, next_row, next_col, dir, found = 0;
 	element position;
 	mark[start_row][start_col] = 1;

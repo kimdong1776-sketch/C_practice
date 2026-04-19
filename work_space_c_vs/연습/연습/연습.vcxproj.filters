@@ -24,9 +24,31 @@
     <ClCompile Include="p5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="p6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p9.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="b.txt" />
     <Text Include="a.txt" />
+    <Text Include="c.txt" />
+    <Text Include="in.txt" />
+    <Text Include="in1.txt" />
+    <Text Include="in2.txt" />
   </ItemGroup>
 </Project>

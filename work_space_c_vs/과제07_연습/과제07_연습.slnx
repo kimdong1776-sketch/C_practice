@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="과제8/과제8.vcxproj" Id="ec4f101e-1961-41fd-8aa6-c58ff4baa7cf" />
+  <Project Path="과제07_연습/과제07_연습.vcxproj" />
 </Solution>
