@@ -34,19 +34,19 @@ node* modifiedSearch(node* root, int k) {
 }
 
 
-void madeBinaryTree(node* root, int k) {
+void madeBinaryTree(node** root, int k) {
 
-	node* ptr, * temp = modifiedSearch(root, k);
+	node* ptr, * temp = modifiedSearch(*root, k);
 
-	if (temp || !(root)) {
+	if (temp || !(*root)) {
 		ptr = (node*)malloc(sizeof(node));
 		ptr->data = k;
 		ptr->lnext = ptr->rnext = NULL;
-		if (root) {
+		if ((*root)) {
 			if (k < temp->data) temp->lnext = ptr;
 			else temp->rnext = ptr;
 		}
-		else root = ptr;
+		else (*root) = ptr;
 	}
 
 }
@@ -91,11 +91,8 @@ int main() {
 
 	node* root = NULL;
 	int temp;
-	root = (node*)malloc(sizeof(node));
-	fscanf_s(in, "%d", &(root->data));
-	root->lnext = root->rnext = NULL;
 	while (fscanf_s(in, "%d", &(temp)) > 0) {
-		madeBinaryTree(root, temp);
+		madeBinaryTree(&root, temp);
 	}
 
 	//inorder(root);
