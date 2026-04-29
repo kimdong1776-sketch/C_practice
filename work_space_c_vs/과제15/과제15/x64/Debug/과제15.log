@@ -1,0 +1,9 @@
+﻿  ds15_김동후.c
+C:\study_coding\work_space_c\work_space_c_vs\과제15\과제15\ds15_김동후.c(68,22): warning C4473: 'fscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제15\과제15\ds15_김동후.c(68,22):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제15\과제15\ds15_김동후.c(68,22):
+      누락된 variadic 인수 2이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\study_coding\work_space_c\work_space_c_vs\과제15\과제15\ds15_김동후.c(65,7): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+  과제15.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제15\x64\Debug\과제15.exe

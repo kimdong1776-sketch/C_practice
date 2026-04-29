@@ -11,12 +11,12 @@ node* modifiedSearch(node* root, int k) {
 	node* temp = root;
 	node* parent = NULL;
 
-	//  트리가 비어있으면 NULL 반환 (조건 1)
+	//  트리가 비어있으면 NULL 반환 
 	if (!root) return NULL;
 
 	// . 트리를 내려가며 탐색
 	while (temp) {
-		//  k를 찾았다면? 중복이라서 넣으면 안 되니까 NULL 반환
+		//  k를 찾았다면- > 중복이라서 넣으면 안되니까 NULL 반환
 		if (k == temp->data) return NULL;
 
 		// 부모가 될 수도 있는 현재 노드를 기억해둠
@@ -38,7 +38,7 @@ void madeBinaryTree(node** root, int k) {
 
 	node* ptr, * temp = modifiedSearch(*root, k);
 
-	if (temp || !(*root)) {
+	if (temp || !(*root)) { // temp != NULL || root == NULL
 		ptr = (node*)malloc(sizeof(node));
 		ptr->data = k;
 		ptr->lnext = ptr->rnext = NULL;
