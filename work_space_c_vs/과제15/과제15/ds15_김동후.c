@@ -19,7 +19,6 @@ void push(element item, int* n) {
 	}
 
 	i = ++(*n);
-	prec
 	while ((i != 1) && (item.prec < heap[i / 2].prec)) {
 		heap[i] = heap[i / 2];
 		i /= 2;
