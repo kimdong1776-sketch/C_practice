@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef enum {operand,lparen, rparen, plus, minus, times, divide, mod, eos} preccedence;
+enum {operand,lparen, rparen, plus, minus, times, divide, mod, eos};
 
 int stack[50] = { 0 };
 int top = -1;
@@ -21,7 +21,7 @@ void push(int i) {
 	stack[++top] = i;
 }
 
-void print_token(preccedence t, char* arr, int *idx) {
+void print_token(int t, char* arr, int *idx) {
 	switch(t) {
 	case plus:
 		printf("+"); arr[(*idx)++] = '+';break;
