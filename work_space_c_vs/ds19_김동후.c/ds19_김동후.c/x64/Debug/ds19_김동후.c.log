@@ -1,0 +1,4 @@
+﻿  ds19_김동후.c
+C:\study_coding\work_space_c\work_space_c_vs\ds19_김동후.c\ds19_김동후.c\ds19_김동후.c(18,10): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+C:\study_coding\work_space_c\work_space_c_vs\ds19_김동후.c\ds19_김동후.c\ds19_김동후.c(35,10): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  ds19_김동후.c.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\ds19_김동후.c\x64\Debug\과제19.exe
