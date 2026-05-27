@@ -1,0 +1,12 @@
+﻿  ds22_김동후.c
+C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(32,62): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(67,22): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(67,22):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(68,9): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(77,21): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+      C:\study_coding\work_space_c\work_space_c_vs\과제22\과제22\ds22_김동후.c(77,21):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+  과제22.vcxproj -> C:\study_coding\work_space_c\work_space_c_vs\과제22\x64\Debug\과제22.exe

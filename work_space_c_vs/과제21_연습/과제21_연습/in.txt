@@ -1,0 +1,7 @@
+atom 
+a 
+can 
+apple 
+do 
+doi 
+best
