@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="연습드래곤/연습드래곤.vcxproj" Id="e245a366-62b0-4514-864f-8b91ec9a28ee" />
+</Solution>
