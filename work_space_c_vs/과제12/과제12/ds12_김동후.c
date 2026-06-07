@@ -23,7 +23,6 @@ void madeBinaryTree(int n, node *ptr) {
 	ptr->rnext = rnode;
 	
 	madeBinaryTree(lnode->data, lnode);
-
 	madeBinaryTree(rnode->data, rnode);
 
 }
