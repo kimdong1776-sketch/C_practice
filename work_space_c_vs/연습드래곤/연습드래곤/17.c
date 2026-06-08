@@ -57,7 +57,7 @@ void P1() {
 	FILE* in;
 	fopen_s(&in, "in.txt", "r");
 	if (!in) {
-		eixt(1);
+		exit(1);
 	}
 
 	int tmp;
