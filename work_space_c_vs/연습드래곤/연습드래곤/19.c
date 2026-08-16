@@ -88,7 +88,7 @@ void mergePass(element e[],element m[], int s, int n) {
 	for (i = 1; i + 2*s -1 <= n; i += 2*s) {
 		merge(e, m, i, i+s-1,i+2*s-1);
 	}
-	if (i+s-1 > n) {
+	if (i+s-1 < n) {
 		merge(e, m, i, i + s - 1, n);
 	}
 	else {

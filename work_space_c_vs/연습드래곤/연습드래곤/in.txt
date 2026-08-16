@@ -1,6 +1,7 @@
-A101 
-70BB 
-0B30 
-1F23 
-C953 
-A001
+abcd
+acc 
+cca 
+e 
+cac 
+oec 
+ceo
